@@ -12,7 +12,7 @@ export default {
       <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
         <ul class="navbar-nav me-auto">
           <li class="nav-item rounded  mx-1">
-            <img src="../assets/header&footer/logo.png" alt="">
+            <img src="../assets/header&footer/logo.png" class="animate__animated animate__bounce" alt="">
           </li>
         </ul>
         <ul class="navbar-nav d-flex ">

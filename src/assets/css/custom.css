@@ -1,26 +1,35 @@
-
 /* @import url('fonts/fonts.css'); */
-
+@import url('animate.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
- 
-body{
-    font-family: 'Work Sans', sans-serif !important;
+
+body {
+  font-family: 'Work Sans', sans-serif !important;
 }
+
+
+/* FONDOS */
 .bg-med {
   background-color: #3467cc;
 }
-.bg-menu2{
+
+.bg-menu2 {
   background-color: #e6effd;
 }
+
+.bg1 {
+  background-color: rgba(67, 229, 255, 0.36);
+}
+
+/* FONDOS */
 
 .circular--square {
   border-radius: 50%;
 }
 
-.naranja{
+.naranja {
   color: #ff8406;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .circular--landscape {
@@ -32,52 +41,103 @@ body{
   align-items: center;
 }
 
-.botonF1{
-width:100px;
-height:100px;
-border-radius:100%;
-background:rgba(255, 255, 255, 0);
-right:0;
-bottom:0;
-position:fixed;
-margin-right:16px;
-margin-bottom:16px;
-border:none;
-outline:none;
-color:#FFF;
-font-size:36px;
-/* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
-transition:.3s;  
-}
-span{
-transition:.5s;  
-}
-.botonF1:hover span{
-transform:rotate(360deg);
-}
-.botonF1:active{
-transform:scale(1.1);
+.botonF1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0);
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-size: 36px;
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  transition: .3s;
 }
 
-.rubik{
-font-family: "Rubik", sans-serif;
+span {
+  transition: .5s;
 }
 
-.metropoli{
-font-family: "Metropolis", sans-serif;
+.botonF1:hover span {
+  transform: rotate(360deg);
 }
 
-.col1{
-color: #3467cc !important;
-}
-.col2{
-color: #808080 !important;
+.botonF1:active {
+  transform: scale(1.1);
 }
 
-.card-text{
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.metropoli {
+  font-family: "Metropolis", sans-serif;
+}
+
+
+/* Color para textos */
+.col0 {
+  color: #FFF;
+}
+
+.col1 {
+  color: #3467cc !important;
+}
+
+.col2 {
   color: #808080 !important;
 }
 
-.bg-footer{
- background-color: #3467cc;
+.col3 {
+  color: #004884;
 }
+
+.col4 {
+  color: #ff8406;
+}
+
+/* Color para textos */
+
+
+.card-text {
+  color: #808080 !important;
+}
+
+.bgm3 {
+  background-color: #00AEEF;
+}
+
+.bg-footer {
+  background-color: #3467cc;
+}
+
+
+
+/* Bordes */
+.border1 {
+  border-bottom: solid 2px #ff8406;
+}
+
+.border2 {
+  border-bottom: solid 1px #808080;
+}
+
+.border3 {
+  border-bottom: solid 2px #004884;
+}
+
+/* Bordes */
+
+/* botones */
+.btn1 {
+  background-color: #00AEEF;
+  color: #FFF;
+
+}
+
+/* botones */
