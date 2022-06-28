@@ -1,11 +1,70 @@
-/* @import url('fonts/fonts.css'); */
+@import url('fonts/fonts.css'); 
 @import url('animate.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
 
 body {
-  font-family: 'Work Sans', sans-serif !important;
+  font-family: 'Work Sans', sans-serif;
 }
+
+
+/* Tipogrfias */
+
+.WSR{
+  font-family: 'Work Sans' !important;
+  font-weight: 400;
+}
+.WSL{
+  font-family: 'Work Sans' !important;
+  font-weight: 300;
+}
+.WSM{
+  font-family: 'Work Sans' !important;
+  font-weight: 500;
+}
+.WSSB{
+  font-family: 'Work Sans' !important;
+  font-weight: 600;
+}
+.WSB{
+  font-family: 'Work Sans' !important;
+  font-weight: 700;
+}
+
+
+p{
+   font-size: 25px;
+   font-family: 'Work Sans' !important;
+   font-weight:  500;
+}
+a {
+   font-size: 25px;
+}
+
+h1{
+ font-size: 3rem;
+}
+
+h2{
+ font-size: 50px;
+}
+
+h3{
+ font-size: 1.5rem;
+}
+
+h4{
+ font-size: 1rem;
+}
+/* Tipogrfias */
+
+
+/* Fuentes */
+
+/* Fuentes */
 
 
 /* FONDOS */
@@ -71,13 +130,13 @@ span {
   transform: scale(1.1);
 }
 
-.rubik {
+/* .rubik {
   font-family: "Rubik", sans-serif;
 }
 
 .metropoli {
   font-family: "Metropolis", sans-serif;
-}
+} */
 
 
 /* Color para textos */
