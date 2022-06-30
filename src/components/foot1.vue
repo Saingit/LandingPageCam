@@ -10,7 +10,7 @@ export default {
       <div class="collapse navbar-collapse d-flex">
         <ul class="navbar-nav me-auto align-items-center">
           <li class="nav-item rounded  mx-2">
-            <div class="bg-white circular--landscape p-1"><img src="src/assets/header&footer/Group 110-1.svg" class=""
+            <div class="bg-white circular--landscape p-1"><img src="../../public/header&footer/Group110.svg" class=""
                 alt="" srcset=""></div>
           </li>
           <li class="nav-item  mx-3">
@@ -19,10 +19,10 @@ export default {
             </a>
           </li>
           <li class="nav-item  mx-3">
-            <img src="src/assets/header&footer/Marca_país_Colombia_logo.svg@2x.png" class="img-fluid" alt="">
+            <img src="../../public/header&footer/Marca_país_Colombia_logo.svg@2x.png" class="img-fluid" alt="">
           </li>
           <li class="nav-item  mx-3">
-            <img src="src/assets/header&footer/logo@2x.png" class="img-fluid" alt="">
+            <img src="../../public/header&footer/logo@2x.png" class="img-fluid" alt="">
           </li>
           <li class="nav-item  mx-3">
             <a class="text-decoration-none text-dark" href="#" aria-expanded="false">

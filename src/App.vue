@@ -35,34 +35,30 @@ export default {
                 <div class="col-12 mb-5">
                     <div class="row">
                         <div class="col-lg-3 col-12 border1">
-                            <h2 class="col4 WSB">Cónocenos</h2>
+                            <h2 class="col4 MB">Cónocenos</h2>
                         </div>
                         <div class="col-lg-9 col-12 border2">
-                            <h2 class="col2 WSM">Secretaría de Innovación Digital</h2>
+                            <h2 class="col2 MM">Secretaría de Innovación Digital</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7 col-12">
                     <h2 class="col4 WSB">¿Qué es la Escuela de Aprendizaje Virtual?</h2>
-                    <p>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                        nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                    <button type="buttom" class="btn btn1"> <strong>VER MÁS</strong> </button>
+                    <p>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br><br> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto.</p>
+                    <button type="buttom" class="btn btn1 p-3"> <strong>CONOCE MÁS</strong> </button>
                 </div>
-                <div class="col-lg-5 col-12"><img src="src/assets/images/41_PersonasyTecnología__MG_1519.jpg"
+                <div class="col-lg-5 col-12"><img src="../public/images/41_PersonasyTecnología__MG_1519.jpg"
                         class="img-fluid" alt=""></div>
             </div>
         </div>
-        <div class="container-fluid px-5 mt-5">
-            <div class="row px-5">
+        <div class="container-fluid px-0 mt-5">
+            <div class="row px-0">
 
                 <div class="col-12 my-5">
-                    <div class="row">
+                    <div class="row px-5">
                         <div class="col-lg-6 col-12 border3">
-                            <h2 class="col3"> <strong>Secretaría de</strong> las Mujeres</h2>
+                            <h2 class="col3"> <strong class="MB">Secretaría de</strong> <span class="MM">las
+                                    Mujeres</span> </h2>
                         </div>
                         <div class="col-lg-6 col-12 border2 ">
                             <h2 class="col3"></h2>
@@ -75,32 +71,41 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 mx-3 col-12 p-4 shadow"><img src="src/assets/images/BPG-14 - copia.jpg"
-                            class="img-fluid mb-3" alt="Alfabetización Digital">
-                        <h3 class="text-center">Alfabetización Digital</h3>
+                <div class="row justify-content-center px-0">
+                    <div class="col-lg-3 mx-3 col-12 py-4 px-0 shadow">
+                        <h4 class="px-3 MB">Alfabetización Digital</h4>
+                        <img src="../public/images/BPG14.jpg" class="img-fluid mb-3"
+                            alt="Alfabetización Digital">
+                        <h5 class="WSR px-3">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</h5>
+
                     </div>
-                    <div class="col-lg-3 mx-3 col-12 p-4 shadow"><img
-                            src="src/assets/images/Activaciones territoriales 8M-9.jpg" class="img-fluid mb-3"
+                    <div class="col-lg-3 mx-3 col-12 py-4 px-0 shadow">
+                        <h4 class="px-3 MB">Mujeres y Paz</h4><img
+                            src="../public/images/AT.jpg" class="img-fluid mb-3"
                             alt="Mujeres y paz">
-                        <h3 class="text-center">Mujeres y Paz</h3>
+                        <h5 class="WSR px-3">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</h5>
                     </div>
-                    <div class="col-lg-3 mx-3 col-12 p-4 shadow"><img
-                            src="src/assets/images/Inauguración de la Colección de las Mujeres-12 - copia.jpg"
+                    <div class="col-lg-3 mx-3 col-12 py-4 px-0 shadow">
+                        <h4 class="px-3 MB">Mujeres y Política</h4>
+                        <img src="../public/images/imujeres.jpg"
                             class="img-fluid mb-3" alt="Mujeres y Política">
-                        <h3 class="text-center">Mujeres y Política</h3>
+                        <h5 class="WSR px-3">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</h5>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="container-fluid px-5 mt-5">
-            <div class="row px-5 justify-content-center">
+        <div class="container-fluid px-0 mt-5">
+            <div class="row px-0 justify-content-center">
 
                 <div class="col-12 my-5">
-                    <div class="row">
+                    <div class="row px-5">
                         <div class="col-lg-4 col-12 border3">
-                            <h2 class="col3"> <strong>Secretaría de</strong> Salud</h2>
+                            <h2 class="col3"> <strong class="MB">Secretaría de</strong> <span class="MM">Salud</span>
+                            </h2>
                         </div>
                         <div class="col-lg-8 col-12 border2 ">
                             <h2 class="col3"></h2>
@@ -114,19 +119,26 @@ export default {
                     </div>
                 </div>
 
-                <div class="col-lg-3 mx-3 col-12 p-3 shadow"><img
-                        src="src/assets/images/44_EntregaTabletasPalmitas__MG_9942.jpg" class="img-fluid mb-3"
+                <div class="col-lg-3 mx-4 col-12 py-3 px-0 shadow">
+                    <h4 class=" px-4 MB">Dame Razones Padres</h4>
+                    <img src="../public/images/44_EntregaTabletasPalmitas__MG_9942.jpg" class="img-fluid mb-3"
                         alt="Dame Razones Padres">
-                    <h3 class="text-center">Dame Razones Padres</h3>
+                    <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                        herramienta particular</h5>
                 </div>
-                <div class="col-lg-3 mx-3 col-12 p-3 shadow"><img src="src/assets/images/192_TechFest__MG_5007.jpg"
-                        class="img-fluid mb-3" alt="Dame Razones Jovenes">
-                    <h3 class="text-center">Dame Razones Jovenes</h3>
+                <div class="col-lg-3 mx-4 col-12 py-3 px-0 shadow">
+                    <h4 class=" px-3 MB">Dame Razones Jovenes</h4>
+                    <img src="../public/images/192_TechFest__MG_5007.jpg" class="img-fluid mb-3"
+                        alt="Dame Razones Jovenes">
+                    <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                        herramienta particular</h5>
                 </div>
-                <div class="col-lg-3 mx-3 col-12 p-3 shadow"><img
-                        src="src/assets/images/44_PersonasyTecnología__MG_2251.jpg" class="img-fluid mb-3"
+                <div class="col-lg-3 mx-4 col-12 py-3 px-0 shadow">
+                    <h4 class="px-3 MB">Redes Sociales</h4>
+                    <img src="../public/images/44_PersonasyTecnología__MG_2251.jpg" class="img-fluid mb-3"
                         alt="Redes Sociales">
-                    <h3 class="text-center">Redes Sociales</h3>
+                    <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                        herramienta particular</h5>
                 </div>
             </div>
         </div>
@@ -245,42 +257,45 @@ export default {
             </div>
             <div class="row p-3 justify-content-center ">
 
-                <div class="col-lg-2 col-12 p-2 text-center"><i
-                        class="bi bi-chat-right-dots" style="font-size: 3rem; color: #3467cc;"></i>
+                <div class="col-lg-2 col-12 p-2 text-center"><i class="bi bi-chat-right-dots"
+                        style="font-size: 3rem; color: #3467cc;"></i>
                     <p> <strong>Chat</strong> <br> Alcaldia de Medellín </p>
                 </div>
-                <div class="col-lg-2 col-12 p-2 text-center"><i class="bi bi-headset" style="font-size: 3rem; color:#3467cc;"></i>
+                <div class="col-lg-2 col-12 p-2 text-center"><i class="bi bi-headset"
+                        style="font-size: 3rem; color:#3467cc;"></i>
                     <p> <strong>Linea de atención</strong> <br> (574) 444 41 44 </p>
                 </div>
-                <div class="col-lg-2 col-12 p-2 text-center"><i class="bi bi-telephone-inbound-fill" style="font-size: 3rem; color:#3467cc;"></i>
+                <div class="col-lg-2 col-12 p-2 text-center"><i class="bi bi-telephone-inbound-fill"
+                        style="font-size: 3rem; color:#3467cc;"></i>
                     <p> <strong>Línea gratiuta Nacional</strong> <br> (574) 444 41 44 </p>
                 </div>
-                <div class="col-lg-2 col-12 p-2 text-center"><img src="src/assets/header&footer/gel_linea.png"
+                <div class="col-lg-2 col-12 p-2 text-center"><img src="../public/header&footer/linea.png"
                         alt="Gobierno en Linea" class="img-fluid">
                     <p> <strong>Centro de Relevos</strong> <br> Atención por lengua de señas </p>
                 </div>
 
-                <div class="col-lg-2 col-12 p-3 text-center"><i class="bi bi-hand-index" style="font-size: 3rem; color:#3467cc;"></i>
+                <div class="col-lg-2 col-12 p-3 text-center"><i class="bi bi-hand-index"
+                        style="font-size: 3rem; color:#3467cc;"></i>
                     <p> <strong>Intranet</strong> <br> Intranet</p>
                 </div>
             </div>
             <div class="row p-3 justify-content-center">
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/radio_institucional.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/radio_institucional.png"
                         alt="Radio Institucional" class="img-fluid"></div>
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/correoremoto.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/correoremoto.png"
                         alt="Correo remoto" class="img-fluid"></div>
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/asocapitales.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/asocapitales.png"
                         alt="Asociación Colombiana de Ciudades Capitales" class="img-fluid"></div>
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/gel_linea.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/linea.png"
                         alt="Gobierno en Linea" class="img-fluid"></div>
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/compra_eficiente.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/compra_eficiente.png"
                         alt="Colombia Compra Eficiente" class="img-fluid"></div>
-                <div class="col-lg-2 col-12 p-3 text-center"><img src="src/assets/header&footer/h_legal.png"
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../public/header&footer/h_legal.png"
                         alt="Hora Legal Colombiana" class="img-fluid"></div>
             </div>
         </div>
 
-        
+
         <foot1 />
 
     </div>

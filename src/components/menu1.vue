@@ -12,7 +12,7 @@ export default {
       <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
         <ul class="navbar-nav me-auto ">
           <li class="nav-item rounded  mx-1">
-            <img src="../assets/header&footer/logo.png" class="animate__animated animate__bounce" alt="">
+            <img src="../../public/header&footer/logo.png" class="animate__animated animate__bounce" alt="">
           </li>
         </ul>
         <ul class="navbar-nav d-flex RBTO">
@@ -53,7 +53,7 @@ export default {
           </div>
 
           <li class="nav-item rounded text-right justify-content-right">
-            <div class="bg-white circular--landscape p-2"><img src="../assets/header&footer/logoNuevo.png" class="img-fluid " alt=""
+            <div class="bg-white circular--landscape p-2"><img src="../../public/header&footer/logoNuevo.png" class="img-fluid " alt=""
                 srcset="">
                 </div>
           </li>

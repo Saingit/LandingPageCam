@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
 /* 
 body {
@@ -46,6 +47,27 @@ body {
 }
 /* WORK SANS fonts */
 
+
+ /* Monsterrat fonts */
+.ML{
+  font-family: 'Montserrat' !important;
+  font-weight: 300;
+}
+.MR{
+  font-family: 'Montserrat' !important;
+  font-weight: 400;
+}
+.MM{
+  font-family: 'Montserrat' !important;
+  font-weight: 500;
+}
+
+.MB{
+  font-family: 'Montserrat' !important;
+  font-weight: 700;
+}
+ /* Monsterrat fonts */
+
 p{
    font-size: 28px;
    font-family: 'Work Sans' !important;
@@ -64,7 +86,7 @@ h2{
 }
 
 h3{
- font-size: 32rem;
+ font-size: 32px;
 }
 
 h4{
@@ -222,17 +244,30 @@ span {
 
 /* SLIDES CAROUSEL */
 .slide1{
-  background-image: url(../../assets/images/banner-encabezado.png);
+  background-image: url(../../../public/images/banner-encabezado.png);
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
   background-size: 100% auto !important;
 }
 .slide2{
-  background-image: url(../../assets/images/banner-encabezado2.png);
+  background-image: url(../../../public/images/banner-encabezado2.png);
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
   background-size: 100% auto !important;
 }
 /* SLIDES CAROUSEL */
+
+
+/* BOTONES */
+.btn1{
+  border-radius: 38px;
+  background-color: #0DB2EF;
+  color:#FFFFFF ;
+  font-family: 'Montserrat' !important;
+  font-weight: 700;
+  font-size: 22px;
+  
+}
+/* BOTONES */
