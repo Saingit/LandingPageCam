@@ -3,23 +3,34 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
-
+/* 
 body {
   font-family: 'Work Sans', sans-serif;
-}
+} */
 
 
 /* Tipogrfias */
-
-.WSR{
-  font-family: 'Work Sans' !important;
+/* Roboto fonts */
+.RBTO{
+  font-family: 'Roboto' !important;
   font-weight: 400;
 }
+.RBTOL{
+  font-family: 'Roboto' !important;
+  font-weight: 300;
+}
+/* Roboto fonts */
+
+/* WORK SANS fonts */
 .WSL{
   font-family: 'Work Sans' !important;
   font-weight: 300;
+}
+.WSR{
+  font-family: 'Work Sans' !important;
+  font-weight: 400;
 }
 .WSM{
   font-family: 'Work Sans' !important;
@@ -33,31 +44,39 @@ body {
   font-family: 'Work Sans' !important;
   font-weight: 700;
 }
-
+/* WORK SANS fonts */
 
 p{
-   font-size: 25px;
+   font-size: 28px;
    font-family: 'Work Sans' !important;
    font-weight:  500;
 }
 a {
-   font-size: 25px;
+   font-size: 18px;
 }
 
 h1{
- font-size: 3rem;
+ font-size: 48px;
 }
 
 h2{
- font-size: 50px;
+ font-size: 36px;
 }
 
 h3{
- font-size: 1.5rem;
+ font-size: 32rem;
 }
 
 h4{
- font-size: 1rem;
+ font-size: 25px;
+}
+
+h5{
+ font-size: 22px;
+}
+
+h6{
+ font-size: 18px;
 }
 /* Tipogrfias */
 
@@ -153,7 +172,7 @@ span {
 }
 
 .col3 {
-  color: #004884;
+  color: #004884 !important;
 }
 
 .col4 {
@@ -200,3 +219,20 @@ span {
 }
 
 /* botones */
+
+/* SLIDES CAROUSEL */
+.slide1{
+  background-image: url(../../assets/images/banner-encabezado.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-size: 100% auto !important;
+}
+.slide2{
+  background-image: url(../../assets/images/banner-encabezado2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-size: 100% auto !important;
+}
+/* SLIDES CAROUSEL */

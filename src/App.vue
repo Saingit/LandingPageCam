@@ -29,8 +29,8 @@ export default {
         <div class="container-fluid px-5 mt-5">
             <div class="row px-5">
                 <div class="col-12 my-5">
-                    <p class="col3">Alcaldía de Medellín > Secretaría de Innovación Digital > <strong>Escuela de
-                            Aprendizaje Virtual</strong> </p>
+                    <h5 class="col3">Alcaldía de Medellín > Secretaría de Innovación Digital > <strong>Escuela de
+                            Aprendizaje Virtual</strong> </h5>
                 </div>
                 <div class="col-12 mb-5">
                     <div class="row">

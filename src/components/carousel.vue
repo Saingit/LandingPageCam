@@ -4,19 +4,24 @@ export default {
 }
 </script>
 <template>
-   <section class="m-0 p-0">
+  <section class="m-0 p-0">
     <div class="container-fluid m-0 p-0">
       <div class="row m-0 p-0">
         <div class="col-12 m-0 p-0">
           <div id="carouselExampleControls" class="carousel slide m-0 p-0" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner m-0 p-0">
               <div class="carousel-item active">
-                <img src="../assets/images/banner-encabezado.png" class="d-block w-100" alt="">
+                <div class="slide1 p-5">
+                  <h1 class="pt-5 WSB col3">Alcaldía de Medellín</h1>
+                  <h2 class="pb-5 WSR col3">Escuela de Aprendizaje Virtual</h2>
+                </div>
               </div>
-              <div class="carousel-item ">
-                <img src="../assets/images/banner-encabezado2.png" class="d-block w-100" alt="">
+              <div class="carousel-item">
+                <div class="slide2 p-5">
+                  <h1 class="pt-5 WSB col3">Alcaldía de Medellín</h1>
+                  <h2 class="pb-5 WSR col3">Escuela de Aprendizaje Virtual</h2>
+                </div>
               </div>
-
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
               data-bs-slide="prev">

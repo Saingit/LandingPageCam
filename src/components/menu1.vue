@@ -15,7 +15,7 @@ export default {
             <img src="../assets/header&footer/logo.png" class="animate__animated animate__bounce" alt="">
           </li>
         </ul>
-        <ul class="navbar-nav d-flex ">
+        <ul class="navbar-nav d-flex RBTO">
 
           <div class="nav-item rounded text-right justify-content-right">
             <li class="nav-item dropdown">
@@ -54,7 +54,8 @@ export default {
 
           <li class="nav-item rounded text-right justify-content-right">
             <div class="bg-white circular--landscape p-2"><img src="../assets/header&footer/logoNuevo.png" class="img-fluid " alt=""
-                srcset=""></div>
+                srcset="">
+                </div>
           </li>
           <div class="nav-item rounded text-right justify-content-right">
 
