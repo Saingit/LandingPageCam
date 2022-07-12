@@ -9,11 +9,11 @@ export default {
           btnMenu.classList.add("animate__animated","animate__bounceIn")
       }
   },
-   animacionIngresoOut: function(){
-    let btnMenu = document.querySelector("#btnMenu3");
-    btnMenu.classList.remove("animate__animated","animate__bounceIn")
+  //  animacionIngresoOut: function(){
+  //   let btnMenu = document.querySelector("#btnMenu3");
+  //   btnMenu.classList.remove("animate__animated","animate__bounceIn")
    
-  }
+  // }
 }
 
 
@@ -47,11 +47,11 @@ export default {
             <a class="nav-link text-white WSL" href="#" target="">Contactanos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn text-white RBTO" id="btnMenu3" @mouseover="animacionIngreso()" @mouseleave="animacionIngresoOut()" href="http://10.2.0.99/" target=""> Ingresar al campus </a>
+            <a class="nav-link btn text-white RBTO" id="btnMenu3"  href="http://10.2.0.99/" target=""> Ingresar al campus </a>
           </li>
       </ul>
       </div>
-
+<!-- @mouseover="animacionIngreso()" -->
       
      
     </div>

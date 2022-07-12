@@ -18,7 +18,7 @@ export default {
       <a class="nav-item rounded mx-1">
         <img src="../assets/logo.png" class="animate__animated animate__bounce" alt="">
       </a>
-      <div class="collapse navbar-collapse justify-content-end tmenu1" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse justify-content-end tmenu11" id="navbarSupportedContent">
         <ul class="navbar-nav text-center">
 
           <div class="nav-item rounded ">
@@ -30,12 +30,12 @@ export default {
                 Opciones de accesibilidad
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item WSL tmenu1" href="#">Action</a></li>
-                <li><a class="dropdown-item WSL tmenu1" href="#">Another action</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Action</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item WSL tmenu1" href="#">Something else here</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Something else here</a></li>
               </ul>
             </li>
           </div>
@@ -47,12 +47,12 @@ export default {
                 <i class="bi bi-globe"></i> Español
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item WSL tmenu1" href="#">Action</a></li>
-                <li><a class="dropdown-item WSL tmenu1" href="#">Another action</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Action</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item WSL tmenu1" href="#">Something else here</a></li>
+                <li><a class="dropdown-item WSL tmenu11" href="#">Something else here</a></li>
               </ul>
 
             </li>
@@ -76,142 +76,142 @@ export default {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                  
                   <li>
-                    <a class="dropdown-item WSL tmenu1 bgm1 text-white"><b>Secretarías</b></a>
+                    <span class="dropdown-item WSL tmenu11 bgm1 text-white"><b>Secretarías</b></span>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1" href="https://www.medellin.gov.co/es/dagrd/"><span
+                  <li><a class="dropdown-item WSL tmenu11 bg-light" href="https://www.medellin.gov.co/es/dagrd/"><span
                         id="HDepAdmGRD" alt="Departamento Administrativo de Gestión del Riesgo y Desastres"
                         title="Departamento Administrativo de Gestión del Riesgo y Desastres">Departamento
                         Administrativo de <br> Gestión del Riesgo de Desastres</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/departamento-administrativo-de-planeacion/"><span
                         id="HDepAdmP" alt="Departamento Administrativo de Planeación"
                         title="Departamento Administrativo de Planeación">Departamento Administrativo de
                         Planeación</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-comunicaciones/"><span id="HSecComuni"
                         alt="Secretaría de Comunicaciones" title="Secretaría de Comunicaciones">Secretaría de
                         Comunicaciones</span></a></li>
 
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-cultura-ciudadana/"><span id="HSecCC"
                         alt="Secretaría de Cultura Ciudadana" title="Secretaría de Cultura Ciudadana">Secretaría de
                         Cultura Ciudadana </span></a></li>
 
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-desarrollo-economico/"><span id="HSecDE"
                         alt="Secretaría de Desarrollo Económico" title="Secretaría de Desarrollo Económico">Secretaría
                         de Desarrollo Económico</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-de-educacion/"><span id="HSecEdu"
                         alt="Secretaría de Educación" title="Secretaría de Educación">Secretaría de Educación</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-evaluacion-y-control/"><span id="HSecEvCo"
                         alt="Secretaría de Evaluación y Control" title="Secretaría de Evaluación y Control">Secretaría
                         de Evaluación y Control</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-general/"><span id="HSecGen"
                         alt="Secretaría General" title="Secretaría General">Secretaría General</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-gestion-humana/"><span id="HSecGeHSC"
                         alt="Secretaría de Gestión Humana y Servicio a la Ciudadanía"
                         title="Secretaría de Gestión Humana y Servicio a la Ciudadanía">Secretaría de Gestión Humana <br> y
                         Servicio a la Ciudadanía</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-gestion-y-control-territorial/">Secretaría de
                       Gestión y Control Territorial</a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-gobierno/"><span id="HSecGoGG"
                         alt="Secretaría de Gobierno y Gestión del Gabinete"
                         title="Secretaría de Gobierno y Gestión del Gabinete">Secretaría de Gobierno y Gestión del
                         Gabinete</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-de-hacienda/"><span id="HSecHa"
                         alt="Secretaría de Hacienda" title="Secretaría de Hacienda">Secretaría de Hacienda</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-inclusion/"><span
                         id="HSecInSoFaDeHu">Secretaría de Inclusión Social, <br>  Familia y Derechos Humanos</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-infraestructura-fisica/"><span id="HSecInfFi"
                         alt="Secretaría de Infraestructura Física"
                         title="Secretaría de Infraestructura Física">Secretaría de Infraestructura Física</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-innovacion-digital/">Secretaría de Innovación
                       Digital</a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-juventud/"><span id="HSecJuv"
                         alt="Secretaría de La Juventud" title="Secretaría de La Juventud">Secretaría de La
                         Juventud</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-la-no-violencia/"><span id="HSecNoViolencia"
                         alt="Secretaría de la No-Violencia" title="Secretaría de la No-Violencia">Secretaría de la
                         No-Violencia</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-mujeres/"><span id="HSecMuje"
                         alt="Secretaría de las Mujeres" title="Secretaría de las Mujeres">Secretaría de las
                         Mujeres</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-medio-ambiente/"><span id="HSecMedAmb"
                         alt="Secretaría de Medio Ambiente" title="Secretaría de Medio Ambiente">Secretaría de Medio
                         Ambiente</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-de-movilidad/"><span id="HSecMov"
                         alt="Secretaría de Movilidad" title="Secretaría de Movilidad">Secretaría de Movilidad</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-participacion-ciudadana/"><span id="HSecPartCiu"
                         alt="Secretaría de Participación Ciudadana"
                         title="Secretaría de Participación Ciudadana">Secretaría de Participación Ciudadana</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-privada/"><span id="HSecPriv"
                         alt="Secretaría Privada" title="Secretaría Privada">Secretaría Privada</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-de-salud/"><span id="HSecSalud"
                         alt="Secretaría de Salud" title="Secretaría de Salud">Secretaría de Salud</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/secretaria-seguridad/"><span id="HSecSegConv"
                         alt="Secretaría de Seguridad y Convivencia"
                         title="Secretaría de Seguridad y Convivencia">Secretaría de Seguridad y Convivencia</span></a>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/secretaria-suministros-y-servicios/"><span id="HSecSumServ"
                         alt="Secretaría de Suministros y Servicios"
                         title="Secretaría de Suministros y Servicios">Secretaría de Suministros y Servicios»</span></a>
                   </li>
                   <li>
-                    <a class="dropdown-item WSL tmenu1 bgm1 text-white"><b>Gerencias</b></a>
+                    <span  class="dropdown-item WSL tmenu11 bgm1 text-white"><b>Gerencias</b></span>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/gerencia-del-centro/"><span id="HGerCentro"
                         alt="Gerencia del Centro" title="Gerencia del Centro">Gerencia del Centro</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1" href="https://www.medellin.gov.co/es/corregimientos/"><span
+                  <li><a class="dropdown-item WSL tmenu11" href="https://www.medellin.gov.co/es/corregimientos/"><span
                         id="HGerCorreg" alt="Gerencia de Corregimientos" title="Gerencia de Corregimientos">Gerencia de
                         Corregimientos</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/diversidades-sexualidades-e-identidad-de-genero/"><span
                         id="HGerDivSexIdeGe" alt="Gerencia de Diversidad Sexual e Identidad de Género"
                         title="Gerencia de Diversidades Sexuales e Identidad de Género">Gerencia de Diversidades <br>
                         Sexuales e Identidad de Género</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1" href="https://www.medellin.gov.co/es/gerencia-etnica/"><span
+                  <li><a class="dropdown-item WSL tmenu11" href="https://www.medellin.gov.co/es/gerencia-etnica/"><span
                         id="HGerEtnica" alt="Gerencia Étnica" title="Gerencia Étnica">Gerencia Étnica</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/gerencia-de-proyectos-estrategicos/"><span id="HGerProyEstra"
                         alt="Gerencia de Proyectos Estratégicos" title="Gerencia de Proyectos Estratégicos">Gerencia de
                         Proyectos Estratégicos</span></a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/unidad-administrativa-especial-buen-comienzo/"><span
                         id="HUnidadAdmEspBuenCom" alt="Unidad Administrativa Especial de Buen Comienzo"
                         title="Unidad Administrativa Especial de Buen Comienzo">Unidad Administrativa Especial de <br> Buen
                         Comienzo</span></a></li>
                   <li>
-                    <a class="dropdown-item WSL tmenu1 bgm1 text-white"><b>Despachos</b></a>
+                    <span class="dropdown-item WSL tmenu11 bgm1 text-white"><b>Despachos</b></span>
                   </li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11"
                       href="https://www.medellin.gov.co/es/nuestro-alcalde/">Despacho del Alcalde</a></li>
-                  <li><a class="dropdown-item WSL tmenu1"
+                  <li><a class="dropdown-item WSL tmenu11 bg-light"
                       href="https://www.medellin.gov.co/es/despacho-de-la-gestora-social/">Despacho de la Gestora
                       Social</a></li>
                 </ul>

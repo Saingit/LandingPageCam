@@ -27,9 +27,18 @@ body {
 }
 
 #btnMenu3:hover{
+  
   -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5); 
   box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5);
   border: solid 2px #FFF!important;  
+
+  animation-name: wobble-hor-top;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
 }
 
 
@@ -89,7 +98,7 @@ body {
  /* Monsterrat fonts */
 
 p{
-   font-size: 28px;
+   font-size: 22px;
    font-family: 'Work Sans' !important;
    font-weight:  500;
 }
@@ -118,13 +127,35 @@ h5{
 }
 
 h6{
- font-size: 18px;
+ font-size: 12px;
 }
+
+.p19{
+  font-size:19px !important;
+}
+
+.p14{
+  font-size:14px !important;
+}
+
+
+
+
 
 .tmenu1{
   font-size: 12px !important;
   z-index: 1000;
 }
+.tmenu11{
+  font-size: 14px !important;
+  font-weight: 500;
+  z-index: 1000;
+}
+
+.tmenu11:hover{
+  color: #ff8406 !important;
+}
+
 .tmenu2 li a{
   font-size: 14px !important;
 }
@@ -152,6 +183,10 @@ h6{
 
 .bg1 {
   background-color: rgba(67, 229, 255, 0.36);
+}
+
+.bg2{
+  background-color:#3366CC;
 }
 
 .bg-withe{
@@ -182,7 +217,12 @@ h6{
   align-items: center;
 }
 
-.botonF1 {
+
+.text-right1{
+  text-align: right !important;
+}
+
+/* .botonF1 {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -197,7 +237,7 @@ h6{
   color: #FFF;
   font-size: 36px;
   /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
-  transition: .3s;
+/*  transition: .3s;
 }
 
 span {
@@ -210,7 +250,7 @@ span {
 
 .botonF1:active {
   transform: scale(1.1);
-}
+} */
 
 /* .rubik {
   font-family: "Rubik", sans-serif;
@@ -242,7 +282,9 @@ span {
 .col4 {
   color: #ff8406;
 }
-
+.col5{
+  color:#59BED9 !important;
+}
 /* Color para textos */
 
 
@@ -281,16 +323,6 @@ span {
 
 /* Bordes */
 
-/* botones */
-
-.btn1 {
-  background-color: #00AEEF;
-  color: #FFF;
-
-}
-
-/* botones */
-
 /* SLIDES CAROUSEL */
 
 .slide1{
@@ -298,7 +330,7 @@ span {
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
-  background-size: 100% auto !important;
+  background-size: 100% 100% !important;
 }
 
 .slide2{
@@ -306,13 +338,16 @@ span {
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
-  background-size: 100% auto !important;
+  background-size: 100% 100% !important;
 }
 
 /* SLIDES CAROUSEL */
 
 
 /* BOTONES */
+
+
+
 
 .btn1{
   border-radius: 38px;
@@ -323,4 +358,165 @@ span {
   font-size: 22px;
 }
 
+.btn1:hover {
+  background-color:#ff8406 !important;
+  color: #FFF !important;
+  animation: vibrate-fast 1s ease 0s 1 normal none;
+
+}
+
 /* BOTONES */
+
+
+/* ELEMENTOS ANIMADOS */
+
+.logotop:hover{
+  animation: bounce-top 1s ease .2s 1 normal none;
+}
+/* ELEMENTOS ANIMADOS */
+
+/* Animaciones */
+
+
+@keyframes wobble-hor-top {
+  0%{
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15%{
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30%{
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45%{
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60%{
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75%{
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+  100%{
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes bounce-in-zoomin {
+  0%{
+    transform: scale(7);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  35%{
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55%{
+    transform: scale(1.5);
+    animation-timing-function: ease-in;
+  }
+  70%{
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  80%{
+    transform: scale(1.24);
+    animation-timing-function: ease-in;
+  }
+  90%{
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+  95%{
+    transform: scale(1.04);
+    animation-timing-function: ease-in;
+  }
+  100%{
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes flip-vertical {
+  0%{
+    transform: rotateY(0);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+}
+
+
+@keyframes bounce-top {
+  0%{
+    transform: translateY(-45px);
+  }
+  25%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-24px);
+  }
+  55%{
+    transform: translateY(0);
+  }
+  65%{
+    transform: translateY(-12px);
+  }
+  75%{
+    transform: translateY(0);
+  }
+  82%{
+    transform: translateY(-6px);
+  }
+  87%{
+    transform: translateY(0);
+  }
+  93%{
+    transform: translateY(-4px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes vibrate-fast {
+  0%{
+    transform: translate(0);
+  }
+  10%{
+    transform: translate(-2px,-2px);
+  }
+  20%{
+    transform: translate(2px,-2px);
+  }
+  30%{
+    transform: translate(-2px,2px);
+  }
+  40%{
+    transform: translate(2px,2px);
+  }
+  50%{
+    transform: translate(-2px,-2px);
+  }
+  60%{
+    transform: translate(2px,-2px);
+  }
+  70%{
+    transform: translate(-2px,2px);
+  }
+  80%{
+    transform: translate(-2px,-2px);
+  }
+  90%{
+    transform: translate(2px,-2px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+/* Animaciones */

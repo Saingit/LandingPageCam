@@ -13,13 +13,13 @@ export default {
               <div class="carousel-item active">
                 <div class="slide1 p-5">
                   <h1 class="pt-5 WSB col3">Alcaldía de Medellín</h1>
-                  <h2 class="pb-5 WSR col3">Escuela de Aprendizaje Virtual</h2>
+                  <h2 class="pb-5 WSR col3 p-5">Escuela de Aprendizaje Virtual</h2>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item ">
                 <div class="slide2 p-5">
-                  <h1 class="pt-5 WSB col3">Alcaldía de Medellín</h1>
-                  <h2 class="pb-5 WSR col3">Escuela de Aprendizaje Virtual</h2>
+                  <h1 class="pt-5 WSB col3">-</h1>
+                  <h2 class="pb-5 WSR col3 p-5">.</h2>
                 </div>
               </div>
             </div>

@@ -21,7 +21,7 @@ export default {
               <ul class="navbar-nav me-auto align-items-center tmenu2">
                 <li class="nav-item rounded  mx-3">
                   <a class="text-decoration-none" href="https://www.medellin.gov.co/" aria-expanded="true">
-                    <img src="../assets/logoNuevo.png" class="img-fluid w-75" alt="Logo alcaldía de medellín" width="249" height="81">
+                    <img src="../assets/logoNuevo.png" class="img-fluid w-75 logotop" alt="Logo alcaldía de medellín" width="249" height="81">
                   </a>
                 </li>
 
