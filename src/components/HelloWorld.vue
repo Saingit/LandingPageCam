@@ -1,7 +1,5 @@
 <template>
-  <button type="button" class="btn btn-primary" @click="modal.show()">
-    Launch demo modal
-  </button>
+<div>
   <div class="modal fade" ref="exampleModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -18,7 +16,13 @@
         </div>
       </div>
     </div>
+    
   </div>
+    <button type="button" class="btn btn-primary" @click="modal.show()">
+    Launch demo modal
+  </button>
+</div>
+
 </template>
 <script>
 import { Modal } from 'bootstrap'

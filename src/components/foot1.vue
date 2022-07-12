@@ -4,50 +4,69 @@ export default {
 }
 </script>
 <template>
-  <nav class="navbar  navbar-expand-sm navbar-light bg-med  shadow">
+
+
+  <div class="">
     <!-- Navbar content -->
-    <div class="container-fluid">
+     <div class="container-fluid  mb-5">
+           
+            <div class="row p-3 justify-content-center ">
+
+                <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer1.svg" class="img-fluid" alt="">
+                    <p> <strong>Chat</strong> <br> Alcaldia de Medellín </p>
+                </div>
+                <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer2.svg" class="img-fluid" alt="">
+                    <p> <strong>Linea de atención</strong> <br> (574) 444 41 44 </p>
+                </div>
+                <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer3.svg" class="img-fluid" alt="">
+                    <p> <strong>Línea gratiuta Nacional</strong> <br> (574) 444 41 44 </p>
+                </div>
+                <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer4.svg" class="img-fluid" alt="">
+                    <p> <strong>Centro de Relevos</strong> <br> Atención por lengua de señas </p>
+                </div>
+
+                <div class="col-lg-2 col-12 p-3 text-center"><img src="../assets/icon-footer5.svg" class="img-fluid" alt="">
+                    <p> <strong>Intranet</strong> <br> Intranet</p>
+                </div>
+            </div>
+            <div class="row p-3 justify-content-center">
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/radio_institucional.png"
+                        alt="Radio Institucional" class="img-fluid"></div>
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/correoremoto.png"
+                        alt="Correo remoto" class="img-fluid"></div>
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/asocapitales.png"
+                        alt="Asociación Colombiana de Ciudades Capitales" class="img-fluid"></div>
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/linea.png"
+                        alt="Gobierno en Linea" class="img-fluid"></div>
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/compra_eficiente.png"
+                        alt="Colombia Compra Eficiente" class="img-fluid"></div>
+                <div class="col-lg-1 col-12 text-center"><img src="../assets/h_legal.png"
+                        alt="Hora Legal Colombiana" class="img-fluid"></div>
+            </div>
+        </div>
+    <div class="container-fluid px-5 py-1 bg-med">
       <div class="collapse navbar-collapse d-flex">
-        <ul class="navbar-nav me-auto align-items-center">
-          <li class="nav-item rounded  mx-2">
-            <div class="bg-white circular--landscape p-1"><img src="../../public/header&footer/Group110.svg" class=""
-                alt="" srcset=""></div>
+        <ul class="nav me-auto align-items-center">
+           
+           <li class="nav-item rounded  mx-3">
+                  <a class="text-decoration-none" href="https://www.medellin.gov.co/" aria-expanded="true">
+                    <img src="../assets/logo_nav_footer.png" class="img-fluid w-50" alt="Logo alcaldía de medellín" width="249" height="81">
+                  </a>
+                </li>
+          
+        </ul>
+        <ul class="nav align-items-end">
+           
+          <li class="nav-item  mx-2">
+            <img src="../assets/Marca_país_Colombia_logo.svg@2x.png" class="img-fluid w-50" alt="">
           </li>
           <li class="nav-item  mx-3">
-            <a class="text-decoration-none text-white text-center" href="#" aria-expanded="false">
-              Alcaldía de Medellín
-            </a>
-          </li>
-          <li class="nav-item  mx-3">
-            <img src="../../public/header&footer/Marca_país_Colombia_logo.svg@2x.png" class="img-fluid" alt="">
-          </li>
-          <li class="nav-item  mx-3">
-            <img src="../../public/header&footer/logo@2x.png" class="img-fluid" alt="">
-          </li>
-          <li class="nav-item  mx-3">
-            <a class="text-decoration-none text-dark" href="#" aria-expanded="false">
-
-            </a>
-          </li>
-          <li class="nav-item  mx-3">
-            <a class="text-decoration-none text-dark" href="#" aria-expanded="false">
-
-            </a>
-          </li>
-          <li class="nav-item  mx-3">
-            <a class="text-decoration-none text-dark" href="#" aria-expanded="false">
-
-            </a>
-          </li>
-          <li class="nav-item ml-5">
-            <a class="text-decoration-none text-light" href="#" aria-expanded="false">
-              Conoce GOV.CO aquí
-            </a>
+            <img src="../assets/logo@2x.png" class="img-fluid w-50" alt="">
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
 
 </template>
 

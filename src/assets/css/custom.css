@@ -14,17 +14,35 @@ body {
 
 /* Tipogrfias */
 /* Roboto fonts */
+
 .RBTO{
   font-family: 'Roboto' !important;
   font-weight: 400;
+ 
 }
+#btnMenu3{
+  border: solid 1px #FFF!important;  
+  transition: all ease-in-out .2s;
+  border-radius: 33px; ;
+}
+
+#btnMenu3:hover{
+  -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5); 
+  box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5);
+  border: solid 2px #FFF!important;  
+}
+
+
+
 .RBTOL{
   font-family: 'Roboto' !important;
   font-weight: 300;
 }
+
 /* Roboto fonts */
 
 /* WORK SANS fonts */
+
 .WSL{
   font-family: 'Work Sans' !important;
   font-weight: 300;
@@ -45,10 +63,12 @@ body {
   font-family: 'Work Sans' !important;
   font-weight: 700;
 }
+
 /* WORK SANS fonts */
 
 
  /* Monsterrat fonts */
+
 .ML{
   font-family: 'Montserrat' !important;
   font-weight: 300;
@@ -100,6 +120,16 @@ h5{
 h6{
  font-size: 18px;
 }
+
+.tmenu1{
+  font-size: 12px !important;
+  z-index: 1000;
+}
+.tmenu2 li a{
+  font-size: 14px !important;
+}
+
+
 /* Tipogrfias */
 
 
@@ -116,11 +146,17 @@ h6{
 .bg-menu2 {
   background-color: #e6effd;
 }
+.tmenu2 li a:hover {
+  color: #ff8406 !important;
+}
 
 .bg1 {
   background-color: rgba(67, 229, 255, 0.36);
 }
 
+.bg-withe{
+  background-color:#FFFFFF !important;
+}
 /* FONDOS */
 
 .circular--square {
@@ -129,13 +165,18 @@ h6{
 
 .naranja {
   color: #ff8406;
-  font-size: 20px;
+  font-size: 14px;
+  transition: all ease-in-out .2s;
+}
+.naranja:hover {
+  color: #ff8406;
+  font-size: 16px;
 }
 
 .circular--landscape {
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -173,7 +214,7 @@ span {
 
 /* .rubik {
   font-family: "Rubik", sans-serif;
-}
+}important
 
 .metropoli {
   font-family: "Metropolis", sans-serif;
@@ -181,6 +222,7 @@ span {
 
 
 /* Color para textos */
+
 .col0 {
   color: #FFF;
 }
@@ -210,6 +252,11 @@ span {
 
 .bgm3 {
   background-color: #00AEEF;
+  z-index: 0;
+}
+.bgm1 {
+  background-color: #00AEEF;
+
 }
 
 .bg-footer {
@@ -219,6 +266,7 @@ span {
 
 
 /* Bordes */
+
 .border1 {
   border-bottom: solid 2px #ff8406;
 }
@@ -234,6 +282,7 @@ span {
 /* Bordes */
 
 /* botones */
+
 .btn1 {
   background-color: #00AEEF;
   color: #FFF;
@@ -243,24 +292,28 @@ span {
 /* botones */
 
 /* SLIDES CAROUSEL */
+
 .slide1{
-  background-image: url(../../../public/images/banner-encabezado.png);
+  background-image: url(/banner-encabezado.png);
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
   background-size: 100% auto !important;
 }
+
 .slide2{
-  background-image: url(../../../public/images/banner-encabezado2.png);
+  background-image: url(/banner-encabezado2.png);
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
   background-size: 100% auto !important;
 }
+
 /* SLIDES CAROUSEL */
 
 
 /* BOTONES */
+
 .btn1{
   border-radius: 38px;
   background-color: #0DB2EF;
@@ -268,6 +321,6 @@ span {
   font-family: 'Montserrat' !important;
   font-weight: 700;
   font-size: 22px;
-  
 }
+
 /* BOTONES */
