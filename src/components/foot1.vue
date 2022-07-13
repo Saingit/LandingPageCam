@@ -13,20 +13,20 @@ export default {
             <div class="row p-3 justify-content-center ">
 
                 <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer1.svg" class="img-fluid" alt="">
-                    <p> <strong>Chat</strong> <br> Alcaldia de Medellín </p>
+                    <p class="WSL col6"> <strong>Chat</strong> <br> Alcaldia de Medellín </p>
                 </div>
                 <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer2.svg" class="img-fluid" alt="">
-                    <p> <strong>Linea de atención</strong> <br> (574) 444 41 44 </p>
+                    <p class="WSL col6"> <strong>Linea de atención</strong> <br> (574) 444 41 44 </p>
                 </div>
                 <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer3.svg" class="img-fluid" alt="">
-                    <p> <strong>Línea gratiuta Nacional</strong> <br> (574) 444 41 44 </p>
+                    <p class="WSL col6"> <strong>Línea gratiuta Nacional</strong> <br> (574) 444 41 44 </p>
                 </div>
                 <div class="col-lg-2 col-12 p-2 text-center"><img src="../assets/icon-footer4.svg" class="img-fluid" alt="">
-                    <p> <strong>Centro de Relevos</strong> <br> Atención por lengua de señas </p>
+                    <p class="WSL col6"> <a href="https://web.emtelco.co/webrtcdemo/centro_relevos_mmed_VC/home.html" class="col6 text-decoration-none" target="_blank"><strong>Centro de Relevos</strong> <br> Atención por lengua de señas </a> </p>
                 </div>
 
                 <div class="col-lg-2 col-12 p-3 text-center"><img src="../assets/icon-footer5.svg" class="img-fluid" alt="">
-                    <p> <strong>Intranet</strong> <br> Intranet</p>
+                    <p class="WSL col6"> <strong>Intranet</strong> <br> <a href="https://www.medellin.gov.co/irj/portal/eureka" class="col6 text-decoration-none">Intranet</a> </p>
                 </div>
             </div>
             <div class="row p-3 justify-content-center">

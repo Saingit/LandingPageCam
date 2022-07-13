@@ -10,9 +10,9 @@ export default {
         <div class="col-12 m-0 p-0">
           <div id="carouselExampleControls" class="carousel slide m-0 p-0" data-bs-ride="carousel">
             <div class="carousel-inner m-0 p-0">
-              <div class="carousel-item active">
+              <div class="carousel-item active ">
                 <div class="slide1 p-5">
-                  <h1 class="pt-5 WSB col3">Alcaldía de Medellín</h1>
+                  <h1 class="pt-5 WSB col3 px-5">Alcaldía de Medellín</h1>
                   <h2 class="pb-5 WSR col3 p-5">Escuela de Aprendizaje Virtual</h2>
                 </div>
               </div>

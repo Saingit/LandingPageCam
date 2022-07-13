@@ -28,8 +28,8 @@ body {
 
 #btnMenu3:hover{
   
-  -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5); 
-  box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3); 
+  box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3);
   border: solid 2px #FFF!important;  
 
   animation-name: wobble-hor-top;
@@ -98,7 +98,7 @@ body {
  /* Monsterrat fonts */
 
 p{
-   font-size: 22px;
+   font-size: 16px;
    font-family: 'Work Sans' !important;
    font-weight:  500;
 }
@@ -138,7 +138,9 @@ h6{
   font-size:14px !important;
 }
 
-
+.tshadow1{
+  text-shadow: 1px 1px 2px black;
+}
 
 
 
@@ -222,43 +224,17 @@ h6{
   text-align: right !important;
 }
 
-/* .botonF1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background: rgba(255, 255, 255, 0);
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  margin-right: 16px;
-  margin-bottom: 16px;
-  border: none;
-  outline: none;
-  color: #FFF;
-  font-size: 36px;
-  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
-/*  transition: .3s;
+/* ICONOS */
+.bi-twitter,.bi-facebook, .bi-instagram, .bi-youtube, .bi-vimeo{
+  color:#fff;
+  margin: 5px;
+  text-decoration: none;
 }
-
-span {
-  transition: .5s;
+.bi:hover{
+  animation: rotate-scale-up 1s ease 0s 1 normal none;
+  background-color: #00AEEF !important;
 }
-
-.botonF1:hover span {
-  transform: rotate(360deg);
-}
-
-.botonF1:active {
-  transform: scale(1.1);
-} */
-
-/* .rubik {
-  font-family: "Rubik", sans-serif;
-}important
-
-.metropoli {
-  font-family: "Metropolis", sans-serif;
-} */
+/* ICONOS */
 
 
 /* Color para textos */
@@ -284,6 +260,10 @@ span {
 }
 .col5{
   color:#59BED9 !important;
+}
+
+.col6{
+  color:#36c;
 }
 /* Color para textos */
 
@@ -345,10 +325,6 @@ span {
 
 
 /* BOTONES */
-
-
-
-
 .btn1{
   border-radius: 38px;
   background-color: #0DB2EF;
@@ -362,7 +338,8 @@ span {
   background-color:#ff8406 !important;
   color: #FFF !important;
   animation: vibrate-fast 1s ease 0s 1 normal none;
-
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3); 
+  box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3);
 }
 
 /* BOTONES */
@@ -370,14 +347,36 @@ span {
 
 /* ELEMENTOS ANIMADOS */
 
-.logotop:hover{
+/* .logotop:hover{
   animation: bounce-top 1s ease .2s 1 normal none;
-}
+} */
 /* ELEMENTOS ANIMADOS */
 
 /* Animaciones */
 
 
+@keyframes rotate-scale-up {
+  0%{
+    transform: scale(1) rotateZ(0);
+  }
+  50%{
+    transform: scale(2) rotateZ(180deg);
+  }
+  100%{
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-diagonal-2 {
+  0%{
+    transform: rotate3d(-1,1,0,0deg);
+  }
+  50%{
+    transform: rotate3d(-1,1,0,180deg);
+  }
+  100%{
+    transform: rotate3d(-1,1,0,360deg);
+  }
+}
 @keyframes wobble-hor-top {
   0%{
     transform: translateX(0%);
