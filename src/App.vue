@@ -69,9 +69,9 @@ export default {
 
                         </div>
                         <div class="col-12 mt-5">
-                            <p> <strong>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            <h5> lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-                                    wisi enim ad minim veniam.</strong> </p>
+                                    wisi enim ad minim veniam.</h5>
                         </div>
                     </div>
                 </div>
@@ -80,11 +80,11 @@ export default {
                         <h4 class="px-3 MB">Prevención de Embarazo en Adolescentes</h4>
                         <img src="./assets/Portadaica1.png" class="img-fluid mb-3"
                             alt="Alfabetización Digital">
-                        <h5 class="WSR px-3"> <strong>Dirigido a Adolescentes</strong> <br>
+                        <p class="WSR px-3"> <strong>Dirigido a Adolescentes</strong> <br>
 
                             En este corto y divertido proceso formativo encontraras todas las herramientas para
                             proyectar tu futuro, tomar decisiones planeadas para la vida y tener una salud sexual sana,
-                            responsable y libre de violencias.</h5>
+                            responsable y libre de violencias.</p>
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
                                    <a href="https://forms.office.com/pages/responsepage.aspx?id=iOBInEReDUuToO6yxhJ8PdXFaF3A4mBFnO9XqZRnYUtUMUQwTDhDNE9UMzlDV0g5S0tKNEowT1g5Ry4u" class="btn btn1" target="_blank" rel="">Inscríbete</a>
@@ -94,11 +94,11 @@ export default {
                     <div class="col-lg-3 mx-3 col-12 py-4 px-0 my-2 shadow">
                         <h4 class="px-3 MB">Prevención de Embarazo en Adolescentes</h4><img src="./assets/Portadaica.png"
                             class="img-fluid mb-3" alt="Mujeres y paz">
-                        <h5 class="WSR px-3"> <strong>Dirigido a Agentes Educativos</strong> <br>
+                        <p class="WSR px-3"> <strong>Dirigido a Agentes Educativos</strong> <br>
 
                             En este corto y amigable curso encontraras un diseño curricular listo y todas las
                             herramientas para formar niñas, niños, adolescentes y jóvenes en habilidades para la vida,
-                            toma de decisiones, salud sexual y reproductiva y llevar una vida libre de violencias.</h5>
+                            toma de decisiones, salud sexual y reproductiva y llevar una vida libre de violencias.</p>
 
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
@@ -110,12 +110,12 @@ export default {
                     <div class="col-lg-3 mx-3 col-12 py-4 px-0 my-2 shadow">
                         <h4 class="px-3 MB">TEST Prevención de embarazo</h4>
                         <img src="./assets/PortadaT.png" class="img-fluid mb-3" alt="Mujeres y Política">
-                        <h5 class="WSR px-4"> <strong> Dirigido a Adolescentes </strong> <br>
+                        <p class="WSR px-4"> <strong> Dirigido a Adolescentes </strong> <br>
 
                             Este juego te servirá para tener un aproximado qué tan cerca o lejos estás de tener un
                             embarazo en tu adolescencia. Al final te damos unos TIPS o estrategias básicas para prevenir
                             esta situación. Te invitamos a responder con total sinceridad, sólo tú conocerás el
-                            resultado. </h5>
+                            resultado. </p>
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
                                    <a href="#" class="btn btn1" target="_blank" rel="">Inscríbete</a>
@@ -140,9 +140,9 @@ export default {
 
                         </div>
                         <div class="col-12 mt-5">
-                            <p> <strong>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            <h5> lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-                                    wisi enim ad minim veniam.</strong> </p>
+                                    wisi enim ad minim veniam. </h5>
                         </div>
                     </div>
                 </div>
@@ -150,8 +150,8 @@ export default {
                     <div class="col-lg-3 mx-3 col-12 py-4 px-0 my-2 shadow">
                         <h4 class="px-3 MB">Alfabetización Digital</h4>
                         <img src="./assets/BPG14.jpg" class="img-fluid mb-3" alt="Alfabetización Digital">
-                        <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
-                            herramienta particular</h5>
+                        <p class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</p>
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
                                    <a href="http://" class="btn btn1" target="_blank" rel="">Inscríbete</a>
@@ -162,8 +162,8 @@ export default {
                     <div class="col-lg-3 mx-3 col-12 py-4 px-0 my-2 shadow">
                         <h4 class="px-3 MB">Mujeres y Paz</h4><img src="./assets/AT.jpg" class="img-fluid mb-3"
                             alt="Mujeres y paz">
-                        <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
-                            herramienta particular</h5>
+                        <p class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</p>
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
                                    <a href="http://" class="btn btn1" target="_blank" rel="">Inscríbete</a>
@@ -173,8 +173,8 @@ export default {
                     <div class="col-lg-3 mx-3 col-12 py-4 px-0 my-2 shadow">
                         <h4 class="px-3 MB">Mujeres y Política</h4>
                         <img src="./assets/imujeres.jpg" class="img-fluid mb-3" alt="Mujeres y Política">
-                        <h5 class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
-                            herramienta particular</h5>
+                        <p class="WSR px-4">Descripción corta o entradilla que explique el módulo, funcionalidad o
+                            herramienta particular</p>
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
                                    <a href="http://" class="btn btn1" target="_blank" rel="">Inscríbete</a>
@@ -199,9 +199,9 @@ export default {
 
                         </div>
                         <div class="col-12 mt-5">
-                            <p> <strong>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            <h5>lorem iLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                                     nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-                                    wisi enim ad minim veniam.</strong> </p>
+                                    wisi enim ad minim veniam.</h5>
                         </div>
                     </div>
                 </div>

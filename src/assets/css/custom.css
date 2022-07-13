@@ -310,22 +310,37 @@ h6{
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
-  background-size: 100% 100% !important;
+  height:400px !important;
+  background-size: 100% !important;
+  -webkit-background-size: 100% !important;
+  -moz-background-size: 100% !important;
+  -o-background-size: 100% !important;
 }
+
 
 .slide2{
   background-image: url(/slide2.png);
   background-position: center center;
   background-repeat: no-repeat;
+  height:400px;
   margin: 0px;
-  background-size: 100% 100% !important;
+  padding: 20px;
+  background-size: 100% !important;
+  -webkit-background-size: 100% !important;
+  -moz-background-size: 100% !important;
+  -o-background-size: 100% !important;
+
 }
 .slide3{
+  height:400px;
   background-image: url(/slide3.png);
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0px;
-  background-size: 100% 100% !important;
+  background-size: 100% !important;
+  -webkit-background-size: 100% !important;
+  -moz-background-size: 100% !important;
+  -o-background-size: 100% !important;
 }
 
 /* SLIDES CAROUSEL */
