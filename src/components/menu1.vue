@@ -16,7 +16,7 @@ export default {
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="nav-item rounded mx-1">
-        <img src="../assets/logo.png" class="animate__animated animate__bounce" alt="">
+        <img src="../assets/img/logo.png" class="animate__animated animate__bounce" alt="">
       </a>
       <div class="collapse navbar-collapse justify-content-end tmenu11" id="navbarSupportedContent">
         <ul class="navbar-nav text-center">
@@ -63,7 +63,7 @@ export default {
           <div class="nav-item rounded">
             <ul class="navbar-nav">
               <li class="nav-item rounded">
-                <div class="bg-white circular--landscape p-1"><img src="../assets/logoNuevop1.png"
+                <div class="bg-white circular--landscape p-1"><img src="../assets/img/logoNuevop1.png"
                     class="img-fluid w-75" alt="" srcset="">
                 </div>
               </li>
