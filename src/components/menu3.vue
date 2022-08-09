@@ -53,7 +53,7 @@ export default {
             
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white WSL" href="#" target="">Foros</a>
+           <router-link class="nav-link" to="/foros"><a class="text-white WSL text-decoration-none" href="#">Foros</a></router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/contacto"><a class="text-white WSL text-decoration-none" href="#">Contáctanos</a></router-link>

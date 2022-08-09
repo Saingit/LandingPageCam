@@ -44,6 +44,12 @@ const routes = [
     meta: { title: 'Diplomados' }
   },
   {
+    path: '/foros',
+    name: 'foros',
+    component: () => import('./views/foros.vue'),
+    meta: { title: 'Foros' }
+  },
+  {
     path: '/contacto',
     name: 'contacto',
     component: () => import('./views/contacto.vue'),
