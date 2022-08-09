@@ -56,7 +56,7 @@ export default {
             <a class="nav-link text-white WSL" href="#" target="">Foros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white WSL" href="#" target="">Contactanos</a>
+            <router-link class="nav-link" to="/contacto"><a class="text-white WSL text-decoration-none" href="#">Contáctanos</a></router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link btn text-white RBTO" id="btnMenu3" href="http://10.2.0.99/" target=""> Ingresar al campus
