@@ -8,50 +8,67 @@
                     <h2 class="col4 WSB">Escribenos</h2>
                 </div>
                 <div class="col-lg-4 col-12 mb-5">
-                    <h3 class="col4 WBS">Datos Escuela Virtual:</h3>
-                    <p>Prevención de embarazo adolescente y subsecuente.</p>
+                    <h3 class="col4 WBS">E-mail:</h3>
+                    <p>Moodle@medellin.gov.co</p>
+                    <h3 class="col4 WBS">Teléfono:</h3>
+                    <p>...</p>
 
 
                 </div>
                 <div class="col-lg-8 col-12 ">
                     <h3 class="col4 WBS">Equipo Escuela de formación virtual: <br> Secretaría de Innovación Digital </h3>
                     <div class="row my-5">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-12 mb-5">
+                            <img src="../assets/img/img113.jpg" alt="" class="img-fluid hexa gon"/>
+                          
+
+                            <h2 class="fw-normal col4 mt-3">Ana Milena Taborda</h2>
+                            <p>Técnica de la plataforma y supervisora  <br> Ingeniera de sistemas</p>
+                         
+                        </div>
+                        <div class="col-lg-4 col-12 mb-5">
                             <img src="../assets/img/img115.jpg" alt="" class="img-fluid hexa gon"/>
                           
 
-                            <h2 class="fw-normal">Wilder Steven Calderón Correa</h2>
+                            <h2 class="fw-normal col4 mt-3">Wilder Steven Calderón Correa</h2>
                             <p>Coordinador de equipo y Administrador de plataforma </p>
+                            <p>Ingeniero informático <br> Esp. Gerencia de tecnología de información</p>
                          
                         </div>
-                        <div class="col-lg-4">
-                            <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
-                                    dy=".3em">140x140</text>
-                            </svg>
+                        <div class="col-lg-4 col-12 mb-5">
+                            <img src="../assets/img/img117.jpg" alt="" class="img-fluid hexa gon"/>
+                          
 
-                            <h2 class="fw-normal">Heading</h2>
-                            <p>Some representative placeholder content for the three columns of text below the carousel.
-                                This is the first column.</p>
-                            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                            <h2 class="fw-normal col4 mt-3">Javier Saín Osorno Aguirre</h2>
+                            <p>Gestión de requerimientos e incidentes Nivel 2 y apoyo técnico de plataforma</p>
+                            <p>Ingeniero en Software </p>
+                         
                         </div>
-                        <div class="col-lg-4">
-                            <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
-                                    dy=".3em">140x140</text>
-                            </svg>
+                        <div class="col-lg-4 col-12 mb-5">
+                            <img src="../assets/img/img114.jpg" alt="" class="img-fluid hexa gon"/>
+                          
 
-                            <h2 class="fw-normal">Heading</h2>
-                            <p>Some representative placeholder content for the three columns of text below the carousel.
-                                This is the first column.</p>
-                            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+                            <h2 class="fw-normal col4 mt-3">Valentina Taborda Henao</h2>
+                            <p>Diseñadora Gráfica <br> Diseñadora Industrial </p>
+                         
                         </div>
+                        <div class="col-lg-4 col-12 mb-5">
+                            <img src="../assets/img/img116.jpg" alt="" class="img-fluid hexa gon"/>
+                          
+
+                            <h2 class="fw-normal col4 mt-3">Kelly Dayana Agudelo Toro</h2>
+                            <p>Analista  de  servicio  -  Gestión  de requerimientos e incidentes Nivel 1,  atención  de  usuarios  y acompañamiento técnico. <br> Técnico en Gestión Empresarial</p>
+                         
+                        </div>
+                        <div class="col-lg-4 col-12 mb-5">
+                            <img src="../assets/img/img118.jpg" alt="" class="img-fluid hexa gon"/>
+                          
+
+                            <h2 class="fw-normal col4 mt-3">Janeth Astrid Tabares Muñoz</h2>
+                            <p>Analista de servicio - Gestión de requerimientos e incidentes Nivel 1, atención de usuarios y apoyo técnico de la plataforma <br> Técnico en sistemas</p>
+                         
+                        </div>
+                        
                     </div>
 
                 </div>

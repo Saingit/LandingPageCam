@@ -380,7 +380,7 @@ box-shadow: 3px 3px 6px #ae3e97 !important;
 
 .hexa {
   
-  
+  z-index: -1 !important;
   width: 180px;
  
   -webkit-clip-path: polygon(
